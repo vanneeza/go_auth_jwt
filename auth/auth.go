@@ -9,7 +9,7 @@ import (
 )
 
 // Buaat secret key
-var jwtKey = "SANGAT_RAHASIA"
+var jwtKey = []byte("SANGAT_RAHASIA")
 
 type User struct {
 	ID       int    `json:"id"`
